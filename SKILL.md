@@ -76,6 +76,7 @@ description: "스토리텔링 루프: 로그라인을 북극성으로 삼아 접
    - 기획의도·시놉시스·공모전 제출 문서의 문장 → **writing-loop**(② 초안부터, 문서 경로).
    - 홍보 카피·예고 문구·포스터 → **writing-loop** 홍보 경로(marketingskills copywriting).
    - 쇼츠·SNS 클립 대본 → marketingskills `social`/`video` 모듈 + 이 루프의 짧은 경로.
+   - 유튜브에 올릴 영상(쇼츠 드라마·정책 영상·실화 서사) → **youtube-agent**(원본 Jakeschincariol/youtube-agent-skill, MIT): `yt-script`로 첫 15초 훅(21개 공식, 채점)과 `[ON SCREEN]` 화면 지시를 붙이고, `yt-package`로 제목·썸네일, `yt-chapters`·`yt-seo`로 설명란. 긴 영상이 나오면 `yt-shorts`로 쇼츠를 다시 뽑는다. 훅이 약하면 ④ 장면 설계로 되돌린다.
    - 영상 제작(모션그래픽·쇼릴) → policy-media-desk 연계 표 ⑤ 확산 고리.
    - 실화·평전 서사 → 사실 근거는 writing-loop A 게이트 방식으로, 기록은 연계 표 ⑥ 기록 고리.
 3. 노하우는 [references/lessons.md](references/lessons.md)에 한 줄로 더한다.
@@ -89,4 +90,5 @@ description: "스토리텔링 루프: 로그라인을 북극성으로 삼아 접
 
 ## 변경 이력
 
+- 2026-11-04 v1.1: 넘기기에 youtube-agent 고리 추가(유튜브 영상의 훅·제목·썸네일·설명란·쇼츠).
 - 2026-11-02 v1.0: 처음 만듦. screenwriting(jtydhr88)·screenplay-review-checklist(zhlmi)를 설치하고 writing-loop·marketingskills·humanize-korean·policy-media-desk와 엮음.
